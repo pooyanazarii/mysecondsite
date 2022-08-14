@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from mysecondsite.views import mydif
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mymy/',mydif)
 ]
