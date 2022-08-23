@@ -9,4 +9,5 @@ app_name ="myblog"
 urlpatterns = [
     path("",view_index,name='index'),
     path("about",view_about,name='about'),
+    path("test",view_test,name='test'),
 ]
